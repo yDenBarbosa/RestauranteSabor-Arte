@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cardápio - Sabor & Arte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+    defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="/style/global.css" />
+  <link rel="stylesheet" href="/style/cardapio.css">
+</head>
+
+<body>
+
+  <header class="py-3 container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+
+        <!-- Logo à esquerda -->
+        <a href="/" class="navbar-brand fs-5 mb-0"><img src="/assets/image/logo.png" alt="" style="width: 125px;"></a>
+
+        <!-- Botão hamburguer para mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Conteúdo colapsável -->
+        <div class="collapse navbar-collapse justify-content-between align-items-center" id="mainNavbar">
+
+          <!-- Menu centralizado -->
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-5">
+            <li class="nav-item"><a href="/index.html" class="nav-link px-3 text-white fs-5">Home</a></li>
+            <li class="nav-item"><a href="/pages/cardapio.html" class="nav-link px-3 text-white fs-5">Cardápio</a></li>
+            <li class="nav-item"><a href="/pages/sobreNos.html" class="nav-link px-3 text-white fs-5">Sobre Nós</a></li>
+            <li class="nav-item"><a href="/pages/contato.html" class="nav-link px-3 text-white fs-5">Contato</a></li>
+          </ul>
+
+          <!-- Botões à direita -->
+          <div class="d-flex ">
+            <!-- <button type="button" class="btn btn-outline-primary me-2">Login</button> -->
+            <button type="button" class="btn btn-close-dark bg-white"><a href="/pages/reserva.html"
+                class="text-decoration-none text-danger fs-5">Reservas</a></button>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main style="
+        background-image: url('https://bing.com/th/id/BCO.6c343823-4b78-4a39-be32-9fdc29eaeacd.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 70vh;
+      " class="d-flex justify-content-end align-items-center pe-5">
+    <div class="d-flex flex-column text-start text-white gap-4 col-6 text-end">
+      <h1 class="display-2">Cardápio</h1>
+      <p class="fs-4">
+        Faça seu pedido online ou reserve uma mesa. Estamos sempre prontos
+        para atender sua demanda. Você receberá a entrega mais rápida que
+        poderia imaginar.
+      </p>
+    </div>
+  </main>
+
+
+  <section class="pb-5">
+    <div class="d-flex justify-content-center text-center p-5 flex-column 1875rem">
+      <h1 class="fs-1">Entradas</h1>
+      <p>Nossas entradas equilibram leveza e sofisticação, preparando o paladar para os pratos principais.</p>
+    </div>
+    <div class="container py-3 px-5 rounded-3" style="background-color: #a00f2c10;">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/assets/image/entradas.jpg" alt="" style="width: 800px; height: 550px;"
+            class="rounded-1 img-fluid">
+        </div>
+        <div class="col-md-6">
+          <div class="">
+            <p style="justify-content: end; display: flex;" class="fs-5" class="fs-5">R$ 34,00</p>
+            <h2 class=" py-2 h2 fs-1" style="border-top: black solid;"><a href="/pages/pratoDetalhes.html"
+                class="text-decoration-none" style="color: black;">Bruschetta de Figo</a></h2>
+            <p>Pão artesanal tostado com figo fresco, presunto cru e mel trufado.</p>
+          </div>
+          <div>
+            <p style="justify-content: end; display: flex;" class="fs-5">R$ 38,00</p>
+            <h2 class=" py-2 h2 fs-1" style="border-top: black solid;"><a href="/pages/pratoDetalhes.html"
+                class="text-decoration-none" style="color: black;">Croquete de Pato</a></h2>
+            <p>Massa cremosa de pato confitado, empanada e frita, servida com aioli de ervas.</p>
+          </div>
+          <div>
+            <p style="justify-content: end; display: flex;" class="fs-5">R$ 42,00</p>
+            <h2 class=" py-2 h2 fs-1" style="border-top: black solid;"><a href="/pages/pratoDetalhes.html"
+                class="text-decoration-none" style="color: black;">Carpaccio Clássico </a></h2>
+            <p>Finas lâminas de filé mignon cru, finalizadas com rúcula, parmesão e azeite trufado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-5">
+    <div class="d-flex justify-content-center text-center p-5 flex-column 1875rem">
+      <h1 class="fs-1">Pratos Principais</h1>
+      <p>Nosso menu principal é onde a criatividade encontra a excelência.</p>
+    </div>
+    <div class="container py-3 px-5 rounded-3" style="background-color: #a00f2c10;">
+      <div class="row flex-row-reverse">
+        <div class="col-md-6">
+          <img src="/assets/image/cardapio.avif" alt="" style="width: 800px; height: 550px;"
+            class="rounded-1 img-fluid">
+        </div>
+        <div class="col-md-6 d-flex flex-column">
+          <div class="">
+            <p style="justify-content: end; display: flex;" class="fs-5"> R$ 58,00</p>
+            <h2 class=" py-2 h2 fs-1" style="border-top: black solid;"><a href="/pages/pratoDetalhes.html"
+                class="text-decoration-none" style="color: black;">Spaghetti alla Primavera</a></h2>
+            <p>Massa com legumes frescos e toque de azeite.</p>
+          </div>
+          <div>
+            <p style="justify-content: end; display: flex;" class="fs-5"> R$ 76,00</p>
+            <h2 class=" py-2 h2 fs-1" style="border-top: black solid;"><a href="/pages/pratoDetalhes.html"
+                class="text-decoration-none" style="color: black;">Filé ao Malbec</a></h2>
+            <p>Filé mignon grelhado com molho de vinho Malbec, servido com purê de batata trufado.</p>
+          </div>
+          <div>
+            <p style="justify-content: end; display: flex;" class="fs-5">R$ 52,00</p>
+            <h2 class=" py-2 h2 fs-1" style="border-top: black solid;"><a href="/pages/pratoDetalhes.html"
+                class="text-decoration-none" style="color: black;">Risoto de Cogumelos </a></h2>
+            <p>Arroz arbório com mix de cogumelos frescos, finalizado com parmesão e azeite de trufas.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+    <section class="pb-5">
+    <div class="d-flex justify-content-center text-center p-5 flex-column 1875rem">
+      <h1 class="fs-1">Sobremesa</h1>
+      <p>Sabor, textura e apresentação que transformam o doce em uma experiência inesquecível.</p>
+    </div>
+    <div class="container py-3 px-5 rounded-3" style="background-color: #a00f2c10;">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/assets/image/sobremesas-para-restaurantes-03.jpg" alt="" style="width: 800px; height: 550px;"
+            class="rounded-1 img-fluid">
+        </div>
+        <div class="col-md-6">
+          <div class="">
+            <p style="justify-content: end; display: flex;" class="fs-5" class="fs-5">R$ 34,00</p>
+            <h2 class=" py-2 h2 fs-1" style="border-top: black solid;"><a href="/pages/pratoDetalhes.html"
+                class="text-decoration-none" style="color: black;">Delírio de Framboesa</a></h2>
+            <p>Cheesecake cremoso com calda de framboesas frescas e finalização com açúcar de confeiteiro.</p>
+          </div>
+          <div>
+            <p style="justify-content: end; display: flex;" class="fs-5"> R$ 30,00</p>
+            <h2 class=" py-2 h2 fs-1" style="border-top: black solid;"><a href="/pages/pratoDetalhes.html"
+                class="text-decoration-none" style="color: black;">Pavê Imperial </a></h2>
+            <p>Camadas de creme de baunilha de Madagascar, biscoito artesanal e raspas de chocolate meio amargo.</p>
+          </div>
+          <div>
+            <p style="justify-content: end; display: flex;" class="fs-5">R$ 32,00</p>
+            <h2 class=" py-2 h2 fs-1" style="border-top: black solid;"><a href="/pages/pratoDetalhes.html"
+                class="text-decoration-none" style="color: black;">Aurora de Coco  </a></h2>
+            <p>Pudim de coco queimado com leve toque de licor e lascas de coco caramelizado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="pb-5">
+    <div class="d-flex justify-content-center text-center p-5 flex-column 1875rem">
+      <h1 class="fs-1">Drinks</h1>
+      <p>Sua experiência gourmet, agora em forma de drink.</p>
+    </div>
+    <div class="container py-3 px-5 rounded-3" style="background-color:#a00f2c10;">
+      <div class="row flex-row-reverse">
+        <div class="col-md-6">
+          <img src="/assets/image/drinks.jpg" alt="" style="width: 800px; height: 550px;"
+            class="rounded-1 img-fluid">
+        </div>
+        <div class="col-md-6 d-flex flex-column">
+          
+          <div class="">
+            <p style="justify-content: end; display: flex;" class="fs-5">R$ 34,00 </p>
+            <h2 class=" py-2 h2 fs-1" style="border-top: black solid;"><a href="/pages/pratoDetalhes.html"
+                class="text-decoration-none" style="color: black;">Aurora Citrus</a></h2>
+            <p>Gin premium infusionado com frutas cítricas e toque de alecrim, finalizado com espuma de limão siciliano.</p>
+          </div>
+          <div>
+            <p style="justify-content: end; display: flex;" class="fs-5"> RR$ 38,00</p>
+            <h2 class=" py-2 h2 fs-1" style="border-top: black solid;"><a href="/pages/pratoDetalhes.html"
+                class="text-decoration-none" style="color: black;">Jardim Secreto</a></h2>
+            <p>Mix de gin botânico, xarope de lavanda artesanal, água tônica premium e pétalas comestíveis.</p>
+          </div>
+          <div>
+            <p style="justify-content: end; display: flex;" class="fs-5">R$ 36,00</p>
+            <h2 class=" py-2 h2 fs-1" style="border-top: black solid;"><a href="/pages/pratoDetalhes.html"
+                class="text-decoration-none" style="color: black;">Pérola Negra </a></h2>
+            <p>Vodka importada, licor de café, baunilha e creme irlandês, servido com raspas de chocolate belga.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <div class="d-flex justify-content-center" style="background-color: #a00f2d;">
+    <footer class="container row py-5 mt-5">
+      <div class="col-12 col-lg-3 mb-5">
+        <img src="/assets/image/logo.png" alt="" style="width: 150px;">
+        <p class="text-white">© 2025</p>
+      </div>
+
+      <div class="offset-lg-1 col-12 col-lg-3 mb-5 mt-">
+        <h4 class="text-white">Menu Alternativo</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Home</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/pages/cardapio.html" class="nav-link p-0 text-white">Cardápio</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/pages/reserva.html" class="nav-link p-0 text-white">Reservas</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/pages/sobreNos.html" class="nav-link p-0 text-white">Sobre Nós</a>
+          </li>
+          </li>
+                <li class="nav-item mb-2">
+                <a href="/pages/contato.html" class="nav-link p-0 text-white"
+                    >Contato</a>
+                </li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-lg-3 mb-5">
+        <h4 class="text-white">Redes Sociais</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Instagram</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Facebook</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">X</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Linkedin</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-lg-2 mb-5">
+        <h4 class="text-white">Contato</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">(21) 98654-8985</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">WhatsApp</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">suporte@sabor&arte.com.br</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
