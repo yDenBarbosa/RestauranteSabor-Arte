@@ -1,6 +1,6 @@
 <!-- MODELO PROJETO EM ANDAMENTO -->
 <h1 align="center"> 
-	🚧 Restaurante Gourmet Sabor & Arte - Em contrução 🚧
+	Restaurante Gourmet Sabor & Arte
 </h1>
 
 <!-- ---------------------------------------------------------------------- -->
